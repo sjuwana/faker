@@ -20,15 +20,21 @@
     {
       "groupName": "vitest",
       "matchPackagePrefixes": ["@vitest/ui", "vitest"]
+    },
+    {
+      "groupName": "typescript",
+      "matchPackagePrefixes": ["typescript"]
+    },
+    {
+      "groupName": "prettier",
+      "matchPackagePrefixes": ["prettier"]
     }
   ],
   "ignoreDeps": [
     // manually bumping
     "@types/node",
     "node",
-    "npm",
-    "prettier",
-    "typescript"
+    "npm"
   ],
   "vulnerabilityAlerts": {
     "labels": ["security"],
